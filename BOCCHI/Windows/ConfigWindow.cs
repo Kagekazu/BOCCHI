@@ -2,6 +2,7 @@
 using System.Numerics;
 using BOCCHI.Modules;
 using Dalamud.Interface.Utility.Raii;
+using Dalamud.Interface.Windowing;
 using Dalamud.Bindings.ImGui;
 using Ocelot.Modules;
 using Ocelot.Windows;

@@ -44,7 +44,7 @@ public class WindowManagerModule(Plugin _plugin, Config _config) : Module(_plugi
         GetModule<StateManagerModule>().OnEnterIdle += ExitCombat;
     }
 
-    public override void OnTerritoryChanged(ushort id)
+    public override void OnTerritoryChanged(uint id)
     {
         if (occultCrescentTerritoryIds.Contains(id))
         {

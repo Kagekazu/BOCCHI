@@ -1,6 +1,7 @@
 using System.Numerics;
 using BOCCHI.Data;
 using Dalamud.Interface;
+using Dalamud.Interface.Windowing;
 using Dalamud.Bindings.ImGui;
 using Ocelot;
 using Ocelot.Windows;

@@ -34,8 +34,8 @@ public class ExpModule(Plugin plugin, Config config) : Module(plugin, config)
         tracker.OnChatMessage(type, timestamp, sender, message, isHandled);
     }
 
-    public override void OnTerritoryChanged(ushort id)
+    public override void OnTerritoryChanged(uint id)
     {
-        tracker.OnTerritoryChange(id);
+        tracker.OnTerritoryChanged(id);
     }
 }

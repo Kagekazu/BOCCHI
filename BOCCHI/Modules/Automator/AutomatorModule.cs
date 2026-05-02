@@ -46,7 +46,7 @@ public class AutomatorModule : Module
         return true;
     }
 
-    public override void OnTerritoryChanged(ushort id)
+    public override void OnTerritoryChanged(uint id)
     {
         if (occultCrescentTerritoryIds.Contains(id))
         {

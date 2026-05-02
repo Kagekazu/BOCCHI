@@ -74,7 +74,7 @@ public class ForkedTowerModule(Plugin plugin, Config config) : Module(plugin, co
             if (!Config.DrawSimpleMode)
             {
                 var key = $"{trap.Position.X:f2}:{trap.Position.Y:f2}:{trap.Position.Z:f2}.{trap.Type}";
-                PictoService.VfxRenderer.AddCircle(key, trap.Position, 4f, GetTrapColor(trap.Type));
+                PctService.VfxRenderer.AddCircle(key, trap.Position, 4f, GetTrapColor(trap.Type));
             }
         }
 
